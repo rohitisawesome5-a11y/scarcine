@@ -1,0 +1,34 @@
+warning: Allow attribute will take precedence over 'allowfullscreen'. at https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/static/js/bundle.js:17284:0
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+REQUEST FAILED: https://im.frshery.com/rkDi2CKbjnezt9wF/156020 - net::ERR_BLOCKED_BY_ORB
+error: Failed to load resource: the server responded with a status of 404 () at https://api.framextv.tech/api/stream?type=movie&id=1423191&provider=pekka:0:0
+warning: Allow attribute will take precedence over 'allowfullscreen'. at https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/static/js/bundle.js:17284:0
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D1423191%26server%3DLisbon - net::ERR_ABORTED
+REQUEST FAILED: https://api.framextv.tech/api/stream?type=movie&id=1423191&provider=pekka - net::ERR_ABORTED
+REQUEST FAILED: https://image.tmdb.org/t/p/w1280/3icyRAqgakNcQn6aDVz9libFmBA.jpg - net::ERR_ABORTED
+REQUEST FAILED: https://cloudflareinsights.com/cdn-cgi/rum - net::ERR_ABORTED
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D1423191%26server%3DNebula - net::ERR_ABORTED
+REQUEST FAILED: https://vidsrc.cc/v2/embed/movie/1423191?autoPlay=true - net::ERR_BLOCKED_BY_RESPONSE
+error: Failed to load resource: the server responded with a status of 403 () at chrome-error://chromewebdata/:0:0
+error: Refused to display 'https://vidsrc.cc/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. at chrome-error://chromewebdata/:0:0
+REQUEST FAILED: https://vidsrc.cc/v2/embed/movie/1423191?autoPlay=true - net::ERR_BLOCKED_BY_RESPONSE
+error: Failed to load resource: the server responded with a status of 403 () at chrome-error://chromewebdata/:0:0
+error: Refused to display 'https://vidsrc.cc/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. at chrome-error://chromewebdata/:0:0
+REQUEST FAILED: https://player.autoembed.cc/embed/movie/1423191 - net::ERR_NAME_NOT_RESOLVED
+REQUEST FAILED: https://streamingnow.mov/?play=TFdLWlNqK0cxTWNlN0xqSVRGb0tTaXFRVStmQnNRbkZNcXV1OWtNcmljQ1BnQ1JHeUdWbWpVeTN5VDI0Q1dBd2RiSVcvZU9YSVo1V0pHbzZjNlhLN2F4MDNZaWhzN2hDUDhRV1dtMFRoUnl4d0YyNFJWQVRlOTAvLzBEay9ZODZwOFdFQnJYUTYvUWRGVjJNQ0ZqbndURzY5QT09 - net::ERR_BLOCKED_BY_RESPONSE
+error: Failed to load resource: the server responded with a status of 403 () at chrome-error://chromewebdata/:0:0
+error: Refused to display 'https://streamingnow.mov/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. at chrome-error://chromewebdata/:0:0
+REQUEST FAILED: https://im.frshery.com/rkDi2CKbjnezt9wF/156020 - net::ERR_BLOCKED_BY_ORB
+error: Failed to load resource: the server responded with a status of 404 () at https://api.framextv.tech/api/stream?type=movie&id=1423191&provider=pekka:0:0
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D1423191%26server%3DLisbon - net::ERR_ABORTED
+REQUEST FAILED: https://api.framextv.tech/api/stream?type=movie&id=1423191&provider=pekka - net::ERR_ABORTED
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D1423191%26server%3DNebula - net::ERR_ABORTED
+REQUEST FAILED: https://cloudflareinsights.com/cdn-cgi/rum - net::ERR_ABORTED
+warning: Allow attribute will take precedence over 'allowfullscreen'. at https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/static/js/bundle.js:17284:0
+REQUEST FAILED: https://cloudflareinsights.com/cdn-cgi/rum - net::ERR_ABORTED
+REQUEST FAILED: https://vidsrc.cc/v2/embed/tv/289517/1/1?autoPlay=true - net::ERR_BLOCKED_BY_RESPONSE
+error: Failed to load resource: the server responded with a status of 403 () at chrome-error://chromewebdata/:0:0
+error: Refused to display 'https://vidsrc.cc/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. at chrome-error://chromewebdata/:0:0
+REQUEST FAILED: https://vidsrc.cc/v2/embed/tv/289517/1/2?autoPlay=true - net::ERR_BLOCKED_BY_RESPONSE
+error: Failed to load resource: the server responded with a status of 403 () at chrome-error://chromewebdata/:0:0
+error: Refused to display 'https://vidsrc.cc/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. at chrome-error://chromewebdata/:0:0

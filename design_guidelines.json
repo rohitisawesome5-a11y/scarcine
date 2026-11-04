@@ -1,0 +1,62 @@
+{
+  "app_name": "VoidStream",
+  "app_type": "streaming_media_web_app",
+  "theme": "dark-cinematic-obsidian",
+  "color_palette": {
+    "background_primary": "#08080a",
+    "background_secondary": "#0d0d11",
+    "surface": "#131318",
+    "border_subtle": "rgba(255, 255, 255, 0.07)",
+    "text_primary": "#f4f4f5",
+    "text_muted": "#a1a1aa",
+    "accent_crimson": "#e50914"
+  },
+  "typography": {
+    "font_family": "Inter, Geist, sans-serif",
+    "headings": "font-bold tracking-tight text-zinc-100",
+    "category_tags": "tracking-widest text-[10px] uppercase font-bold text-zinc-400"
+  },
+  "micro_interactions": {
+    "poster_card_hover": "scale-[1.02] duration-300 transition-all",
+    "glass_nav": "backdrop-blur-xl bg-black/70 border-b border-white/[0.07]",
+    "skeletal_loader": "animate-pulse bg-zinc-800/60 rounded"
+  },
+  "image_urls": [
+    {
+      "category": "hero_billboard",
+      "url": "https://images.unsplash.com/photo-1705510144116-cc4d88838b14?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Cyberpunk sci-fi cinematic digital art"
+    },
+    {
+      "category": "movie_poster_1",
+      "url": "https://images.pexels.com/photos/8108413/pexels-photo-8108413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Cyberpunk portrait neon glow"
+    },
+    {
+      "category": "movie_poster_2",
+      "url": "https://images.unsplash.com/photo-1727018663219-b0bd25a359e9?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Man in city at night atmospheric"
+    },
+    {
+      "category": "movie_poster_3",
+      "url": "https://images.unsplash.com/photo-1686934674798-2e390dc94019?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Dark atmospheric cinematic forest"
+    },
+    {
+      "category": "movie_poster_4",
+      "url": "https://images.pexels.com/photos/8108385/pexels-photo-8108385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Futuristic neon lit portrait"
+    },
+    {
+      "category": "movie_poster_5",
+      "url": "https://images.unsplash.com/photo-1713981272299-355d7038d708?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "City aerial view at night dark"
+    }
+  ],
+  "instructions_to_main_agent": "Ensure zero-auth local storage persistence for bookmarks and continue-watching telemetry. Implement Cmd+K search shortcut and instant filter pills, cinema lights-off theater modal with server pills (PEKKA, Archer, Barbarian, Goblin), TV show season & episode grid, and responsive layout from 360px mobile to 4K desktop.",
+  "universal_guidelines": [
+    "NO centered neon glow blobs, NO purple-to-blue gradients, NO cheesy rounded-3xl pastel cards.",
+    "Always include data-testid on interactive elements for reliable test automation.",
+    "Use solid or backdrop-blur-xl glass headers, never fully transparent without background."
+  ]
+}

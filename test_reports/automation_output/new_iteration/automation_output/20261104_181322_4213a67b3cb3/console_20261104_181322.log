@@ -1,0 +1,9 @@
+warning: Allow attribute will take precedence over 'allowfullscreen'. at https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/static/js/bundle.js:16180:0
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+REQUEST FAILED: https://im.frshery.com/rkDi2CKbjnezt9wF/156020 - net::ERR_BLOCKED_BY_ORB
+error: Failed to load resource: the server responded with a status of 404 () at https://api.framextv.tech/api/stream?type=movie&id=155&provider=pekka:0:0
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+REQUEST FAILED: https://api.wing.st/g - net::ERR_ABORTED
+REQUEST FAILED: https://api.framextv.tech/api/stream?type=movie&id=155&provider=pekka - net::ERR_ABORTED
+REQUEST FAILED: https://cloudflareinsights.com/cdn-cgi/rum - net::ERR_ABORTED
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D155%26server%3DNebula - net::ERR_ABORTED

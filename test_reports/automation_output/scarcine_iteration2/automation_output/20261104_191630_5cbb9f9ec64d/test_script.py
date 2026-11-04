@@ -1,0 +1,31 @@
+async def run_test(page, output_dir, page_url):
+    import asyncio
+    try:
+        await page.set_viewport_size({"width": 1440, "height": 900})
+        await page.goto("https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/", wait_until="domcontentloaded")
+        await page.wait_for_selector('[data-testid="hero-dots"]', timeout=15000)
+        await page.wait_for_timeout(2500)
+        print("title", await page.title())
+        print("hero", await page.locator('[data-testid="hero-title"]').inner_text())
+        print("dots", await page.locator('[data-testid="hero-dots"] button').count())
+        print("all p", await page.locator('[data-testid="hero-billboard"] p').all_inner_texts())
+        before = await page.locator('[data-testid="hero-title"]').inner_text()
+        await page.locator('[data-testid="hero-dot-2"]').click()
+        await page.wait_for_timeout(700)
+        print("after dot", await page.locator('[data-testid="hero-title"]').inner_text())
+        print("p after", await page.locator('[data-testid="hero-billboard"] p').all_inner_texts())
+        await page.mouse.move(720,850)
+        await page.wait_for_timeout(8200)
+        print("after rotate", await page.locator('[data-testid="hero-title"]').inner_text())
+        await page.locator('[data-testid="hero-watch-now"]').click()
+        await page.wait_for_selector('[data-testid="player-modal"]', timeout=10000)
+        print("player", await page.locator('[data-testid="player-title"]').inner_text())
+        await page.locator('[data-testid="player-fullscreen"]').click()
+        await page.wait_for_timeout(1000)
+        print("fullscreen", await page.evaluate("() => ({fs:!!document.fullscreenElement,id:document.fullscreenElement?.getAttribute('data-testid')})"))
+        await page.keyboard.press("Escape")
+        await page.wait_for_timeout(300)
+        print("modal after esc", await page.locator('[data-testid="player-modal"]').is_visible())
+        print("errors", await page.evaluate("""() => Array.from(document.querySelectorAll('.error, [class*="error"], [id*="error"]')).map(el => el.textContent).join(', ')"""))
+    except Exception as e:
+        print("SCRIPT ERROR", repr(e)); raise

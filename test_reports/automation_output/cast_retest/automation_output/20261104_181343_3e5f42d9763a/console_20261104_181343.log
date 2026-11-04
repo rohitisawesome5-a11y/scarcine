@@ -1,0 +1,26 @@
+warning: Allow attribute will take precedence over 'allowfullscreen'. at https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/static/js/bundle.js:16180:0
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+REQUEST FAILED: https://im.frshery.com/rkDi2CKbjnezt9wF/156020 - net::ERR_BLOCKED_BY_ORB
+error: Failed to load resource: the server responded with a status of 404 () at https://api.framextv.tech/api/stream?type=movie&id=155&provider=pekka:0:0
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+REQUEST FAILED: https://api.framextv.tech/api/stream?type=movie&id=155&provider=pekka - net::ERR_ABORTED
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D155%26server%3DNebula - net::ERR_ABORTED
+REQUEST FAILED: https://enc-dec.app/api/enc-cinejoy?url=https%3A%2F%2Fapi.wing.st%2F%3Ftitle%3Dmovie%26type%3Dmovie%26year%3D%26imdb%3D%26tmdb%3D155%26server%3DAthens - net::ERR_ABORTED
+REQUEST FAILED: https://cloudflareinsights.com/cdn-cgi/rum - net::ERR_ABORTED
+warning: Allow attribute will take precedence over 'allowfullscreen'. at https://void-cinema-2--1jvdlnpg.preview.emergentagent.com/static/js/bundle.js:16180:0
+REQUEST FAILED: https://im.frshery.com/rkDi2CKbjnezt9wF/156020 - net::ERR_BLOCKED_BY_ORB
+error: Failed to load resource: the server responded with a status of 404 () at https://api.framextv.tech/api/stream?type=movie&id=1423191&provider=pekka:0:0
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+REQUEST FAILED: https://api.framextv.tech/api/proxy?url=https%3A%2F%2Fnebula.bright67.online%2Fhls%2Fd876f125-7370-4800-bbd8-0425cc503522%2Fmaster.m3u8&ref=aHR0cHM6Ly9jaW5lam95LnBrLw&origin=https%3A%2F%2Fcinejoy.pk - net::ERR_ABORTED
+error: Access to XMLHttpRequest at 'https://api.framextv.tech/api/proxy?url=https%3A%2F%2Fnebula.bright67.online%2Fhls%2Fd876f125-7370-4800-bbd8-0425cc503522%2Fmaster.m3u8&ref=aHR0cHM6Ly9jaW5lam95LnBrLw&origin=https%3A%2F%2Fcinejoy.pk' from origin 'https://framextv.cc' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. at https://framextv.cc/embed/1423191?server=pekka&autoplay=1:0:0
+warning: ⚠️ Manifest load error (manifestLoadError, HTTP 0/CORS). Auto-switching to next stream/server... at https://framextv.cc/assets/Player-B5QmjlTb.js:58:29062
+warning: ⚡ Failover [fatal] on pekka (Manifest load failed (HTTP 0)) -> next_provider super_barbarian at https://framextv.cc/assets/Player-B5QmjlTb.js:58:18869
+REQUEST FAILED: https://api.framextv.tech/api/proxy?url=https%3A%2F%2Fnebula.bright67.online%2Fhls%2Fd876f125-7370-4800-bbd8-0425cc503522%2Fmaster.m3u8&ref=aHR0cHM6Ly9jaW5lam95LnBrLw&origin=https%3A%2F%2Fcinejoy.pk - net::ERR_FAILED
+error: Failed to load resource: net::ERR_FAILED at https://api.framextv.tech/api/proxy?url=https%3A%2F%2Fnebula.bright67.online%2Fhls%2Fd876f125-7370-4800-bbd8-0425cc503522%2Fmaster.m3u8&ref=aHR0cHM6Ly9jaW5lam95LnBrLw&origin=https%3A%2F%2Fcinejoy.pk:0:0
+debug: [Player] video element error code 4 (handled by source pipeline) at https://framextv.cc/assets/Player-B5QmjlTb.js:58:49264
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015
+clear: console.clear at https://framextv.cc/assets/index-BrAnuREQ.js:15:3015

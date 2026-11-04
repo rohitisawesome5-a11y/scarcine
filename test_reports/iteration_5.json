@@ -1,0 +1,21 @@
+{
+  "summary": "Frontend-only verification of the new PlayerModal Sub/Dub and subtitle toolbar passed on desktop and mobile.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {"ui_bugs": [], "integration_issues": [], "design_issues": []},
+  "test_report_links": [
+    "/app/test_reports/automation_output/toolbar_iteration",
+    "/app/test_reports/automation_output/toolbar_retest",
+    "/app/test_reports/automation_output/toolbar_mobile"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "Cross-origin iframe postMessage delivery cannot be directly asserted from the browser test, but the mode actions and iframe URL changes were verified."
+  ],
+  "updated_files": ["/app/test_reports/iteration_5.json"],
+  "success_rate": {"backend": "not tested (frontend-only request)", "frontend": "100%"},
+  "seed_data_creation": "",
+  "retest_needed": false,
+  "should_call_test_agent_after_fix": false,
+  "context_for_next_testing_agent": "Verified fresh pekka default, DUB→archer and SUB→barbarian switches, localStorage persistence across reopen, manual Goblin override/highlight clearing, subtitle ON/OFF menu closure, Escape closing player, and 390px no-overflow layout.",
+  "rca of the issue": ""
+}
