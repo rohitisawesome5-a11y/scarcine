@@ -1,7 +1,9 @@
-const BACKEND = (process.env.REACT_APP_BACKEND_URL || "").replace(/\/+$/, "");
-const API_KEY = process.env.REACT_APP_TMDB_KEY || "";
+const TMDB_BASE_URL = "https://api.themoviedb.org/3";
+const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
+const API_KEY = process.env.REACT_APP_TMDB_KEY || process.env.NEXT_PUBLIC_TMDB_KEY || "";
 
-export const hasTmdbKey = Boolean(API_KEY && BACKEND);
+// Direct client check - no backend dependency needed
+export const hasTmdbKey = Boolean(API_KEY);
 
 async function tmdbFetch(url, timeout = 12000) {
   const ctrl = new AbortController();
@@ -15,17 +17,17 @@ async function tmdbFetch(url, timeout = 12000) {
   }
 }
 
-// All TMDB traffic goes through the backend proxy so the browser never
-// depends on direct reachability of api.themoviedb.org / image.tmdb.org.
+// Direct TMDB API calls (Zero backend proxy needed)
 export async function tmdb(endpoint, params = {}) {
   if (!hasTmdbKey) throw new Error("TMDB API key is not configured");
   const qs = new URLSearchParams({ api_key: API_KEY });
   Object.entries(params).forEach(([k, v]) => v != null && qs.set(k, v));
-  return tmdbFetch(`${BACKEND}/api/tmdb/${endpoint.replace(/^\/+/, "")}?${qs.toString()}`);
+  return tmdbFetch(`${TMDB_BASE_URL}/${endpoint.replace(/^\/+/, "")}?${qs.toString()}`);
 }
 
+// Direct official TMDB CDN images
 export const img = (path, size = "w500") =>
-  path && BACKEND ? `${BACKEND}/api/tmdb/img/${size}${path}` : null;
+  path ? `${TMDB_IMAGE_BASE}/${size}${path}` : null;
 
 export function normalize(raw, fallbackType = "movie") {
   const type =
