@@ -1,4 +1,4 @@
-const TMDB_BASE_URL = "https://api.themoviedb.org/3";
+const TMDB_BASE_URL = "/api/tmdb";
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
 const API_KEY = process.env.REACT_APP_TMDB_KEY || process.env.NEXT_PUBLIC_TMDB_KEY || "";
 
